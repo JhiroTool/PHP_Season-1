@@ -26,10 +26,10 @@
         if($c_q > 0){
             while($row = mysqli_fetch_assoc($query)){
                 echo $name = $row["name"] . "<br>";
-                echo $address = $row["address"] . "<br>";
-                echo $email = $row["email_address"] . "<br>";
-                echo $section = $row["section"] . "<br>";
-                echo $contact = $row["contact"] . "<br>";
+                // echo $address = $row["address"] . "<br>";
+                // echo $email = $row["email_address"] . "<br>";
+                // echo $section = $row["section"] . "<br>";
+                // echo $contact = $row["contact"] . "<br>";
             }
         }else{
             echo "No results.";
