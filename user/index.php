@@ -8,8 +8,8 @@
         while($row_edit = mysqli_fetch_assoc($get_record)){
             $db_name = $row_edit['name'];
             $db_address = $row_edit['address'];
-            $db_email = $row_edit['email'];
-        } echo "Welcome, $db_name !" . " <a href='../logout.php'>Logout</a>";
+            $db_email = $row_edit['email_address'];
+        } echo "Welcome, $db_name !" . " <a href='logout.php'>Logout</a>";
     }else{
         echo "You must login first! <a href='../login.php'>Login now!</a>";
     }
